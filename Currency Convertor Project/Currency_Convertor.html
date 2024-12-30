@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Currency_Convertor.css">
+    <link rel="web icon" href="Currency_Convertor.png">
+</head>
+<body><div class="container">
+    <h1>Currency Convertor</h1>
+    <div class="amount_container">
+        <div class="amount">
+            <p>Converting Amount:</p>
+            <input type="value">
+        </div>
+    </div>
+    <div class="drop_down">
+    <div class="From">
+        <p>From:</p>
+        <div class="select_container">
+            <img src="https://flagsapi.com/US/flat/64.png">
+            <select name="from" id="">
+            </select>
+        </div>
+    </div>
+    <i class="fa-solid fa-arrow-right-arrow-left" id="Exchange"></i>
+    <div class="To">
+        <p>To:</p>
+        <div class="select_container">
+            <img src="https://flagsapi.com/PK/flat/64.png">
+            <select name="to" id="">
+            </select>
+        </div>
+    </div>
+</div>
+<div class="divbtn">1USD = 278 PKR</div>
+     
+    <button class="Exchange_btn">Click To Exchange!!</button>
+</div>
+<script src="code.js"></script>
+<script src="Currency_Convertor.js"></script>
+</body>
+</html>
